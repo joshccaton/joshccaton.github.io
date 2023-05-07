@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="circularray.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<!--<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" />
+
+<!-- Bootstrap Icons CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<script src="fretController.js"></script>
+<script src="buttonSelector.js"></script>
+<script src="modal.js"></script>
+<link rel="stylesheet" href="style.css">
+<meta charset=utf-8 />
+<title>FretMap</title>
+</head>
+<header>
+  <div class="header-content">
+    <button id="remove-selected-btn">RESET</button>
+    <h5>Click a note to mark each occurrence on the fretboard. Click the settings gear for options.</h5>
+  </div>
+</header>
+<body ng-app="guitarApp" ng-controller="fretController">
+  <!--<span><label>Fret Length: </label><input ng-model="numFrets"></span>-->
+  <div id="guitar">
+    <table class="table table-striped guitar">
+      <tr id="fretHeader">
+        <th class="fretNum" ng-repeat="x in [].constructor(numFrets) track by $index">
+          <span>{{ $index }}</span>
+        </th>
+        <th>{{numFrets}}</th>
+      </tr>
+      <tr ng-repeat="f in frets" ng-model="frets">
+        <td ng-repeat="n in f.notes">
+          <button class="button">{{n.note}}</button>
+      </tr>
+    </table>
+  </div>
+</body>
+<footer>
+  <div class="footer-content">
+    <span class="inline"><a href="#" id="open-dialog" class="bi bi-gear icon-black"></a><h3><i> FretMapper </i> - Guitar Scale Visualizer - v0.1</h3></span>
+    <p>&copy; 2023 Josh Caton - All rights reserved</p>
+  </div>
+</footer>
+<div class="code-block">
+  <h4><i>// COMING SOON</i></h4>
+  <ol>
+    <li>Scale presets via select box</li>
+    <li>Configuration for alternate tunings</li>
+    <li>Ability to change the number of strings</li>
+    <li>Back-end for user accounts with favorites and customization options</li>
+    <li>Refactor from Angular to React</li>
+    <li>Improved styling and responsiveness</li>
+  </ol>
+  
+</div>
+
+<dialog id="my-dialog">
+  <div class="modal-header">
+    <h2>Settings</h2>
+  </div>
+  <i>Eventually, this area will contain user and session settings. For now, click this button <button ng-click="setScale('A Major')"><b>A-major</b></button> to view the A Major scale.</i>
+  
+  <div class="modal-footer">
+    <button id="close-dialog">Cancel</button>
+  </div>
+</dialog>
+
+
+</html>

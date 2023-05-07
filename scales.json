@@ -1,0 +1,148 @@
+{
+    "scales": [
+        {
+            "name": "A Major",
+            "rootNote": "A",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["A", "B", "C#", "D", "E", "F#", "G#"]
+        },
+        {
+            "name": "A# Major",
+            "rootNote": "A#",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["A#", "B", "C#", "D", "D#", "F", "G", "G#","A","A#"]
+        },
+        {
+            "name": "B Major",
+            "rootNote": "B",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["B", "C#", "D#", "E", "F#", "G#", "A#", "Bb"]
+        },
+        {
+            "name": "C Major",
+            "rootNote": "C",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["C", "C#", "D#", "E", "F", "F#", "G#", "A", "A#", "B"]
+        },
+        {
+            "name": "C# Major",
+            "rootNote": "C#",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["C#", "D#", "F", "F#", "G#", "A#", "C", "C#", "D", "D#"]
+        },
+        {
+            "name": "D Major",
+            "rootNote": "D",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["D", "D#", "F", "F#", "G", "G#", "A#", "B", "C", "C#"]
+        },
+        {
+            "name": "D# Major",
+            "rootNote": "D#",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["D#", "E", "F#", "G", "G#", "A#", "C", "C#", "D", "D#"]
+        },
+        {
+            "name": "E Major",
+            "rootNote": "E",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["E", "F#", "G#", "A", "A#", "C", "C#", "D", "D#", "F"]
+        },
+        {
+            "name": "F Major",
+            "rootNote": "F",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["F", "F#", "G#", "A#", "Bb", "C#", "D#", "E", "F"]
+        },
+        {
+            "name": "F# Major",
+            "rootNote": "F#",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["F#", "G#", "A#", "B", "C#", "D#", "E#"]
+        },
+        {
+            "name": "G Major",
+            "rootNote": "G",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["G", "A", "B", "C", "D", "E", "F#"]
+        },
+        {
+            "name": "G# Major",
+            "rootNote": "G#",
+            "intervals": [2, 2, 1, 2, 2, 2, 1],
+            "notes": ["G#", "A#", "B#", "C#", "D#", "E#", "F##"]
+        },
+        {    
+            "name": "A minor",    
+            "rootNote": "A",    
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "name": "A# minor",
+            "rootNote": "A#",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["A#", "C", "C#", "D#", "F", "F#", "G#"]
+        },
+        {
+            "name": "B minor",
+            "rootNote": "B",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["B", "C#", "D", "E", "F#", "G", "A"]
+        },
+        {
+            "name": "C minor",
+            "rootNote": "C",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["C", "D", "D#", "F", "G", "G#", "A#"]
+        },
+        {
+            "name": "C# minor",
+            "rootNote": "C#",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["C#", "D#", "E", "F#", "G#", "A", "B"]
+        },
+        {
+            "name": "D minor",
+            "rootNote": "D",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["D", "E", "F", "G", "A", "A#", "C"]
+        },
+        {
+            "name": "D# minor",
+            "rootNote": "D#",
+            "intervals": [2, 1, 2, 2, 1, 3, 1],
+            "notes": ["D#", "F", "F#", "G#", "A#", "B", "C#"]
+        },
+        {
+            "name": "E minor",
+            "rootNote": "E",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["E", "F#", "G", "A", "B", "C", "D"]
+        },
+        {
+            "name": "F minor",
+            "rootNote": "F",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["F", "G", "G#", "A#", "C", "C#", "D#"]
+        },
+        {
+            "name": "F# minor",
+            "rootNote": "F#",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["F#", "G#", "A", "B", "C#", "D", "E"]
+        },
+        {
+            "name": "G minor",
+            "rootNote": "G",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["G", "A", "A#", "C", "D", "D#", "F"]
+        },
+        {
+            "name": "G# minor",
+            "rootNote": "G#",
+            "intervals": [2, 1, 2, 2, 1, 2, 2],
+            "notes": ["G#", "A#", "B", "C#", "D#", "E", "F#"]
+        }
+    ]   
+}

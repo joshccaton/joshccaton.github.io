@@ -1,0 +1,105 @@
+body {
+  padding:20px;
+  background-color: #f2f2f2; 
+}
+.selected {
+  background-color: #93c0bcc8;
+}
+header {
+  background-color: #c8a093;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+footer {
+  background-color: #f2f2f2; 
+  padding-left: 20px;
+  padding-bottom: 30px;
+  text-align: "center";
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+h4{
+  color: rgb(133, 36, 133);
+}
+h5{
+  padding-left: 10px;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+  padding-right: 30px;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: center !important;
+}
+td {
+  border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+}
+td:not(:last-child) {
+  border-right: none;
+}
+.code-block {
+  background-color: black;
+  color: #00FF00; /* Green text color */
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+dialog::backdrop {
+  background: black;
+  opacity: 0.5;
+}
+#guitar button {
+  border-radius: 7px;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 1px 1px 2px grey;
+}
+dialog {
+  max-width: 90vw;
+  border: 1px solid black;
+}
+#open-dialog{
+  font-size: 2em !important;
+}
+.icon-black {
+  color: black;
+}
+.inline{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-footer{
+  padding-top: 20px;
+}
+.modal-header{
+  padding-bottom: 20px;
+}

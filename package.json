@@ -1,0 +1,17 @@
+{
+  "name": "joshcaton.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "circularray": "^0.2.2",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
